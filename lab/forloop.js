@@ -43,3 +43,5 @@ for (var x=0; x<=10; x++) {
         }
 
 }
+
+//3. Write a for loop that iterates from 1 - 20. Prints “prime” for all prime numbers, “even” for all even numbers, and “odd” for all odd numbers.
