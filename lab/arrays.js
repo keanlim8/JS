@@ -89,3 +89,13 @@ function filterLongWords (array,num){
   }
   return newWord;
 }console.log(filterLongWords(["MASSACHUSETTS", "NEWYORK", "MAINE", "DC"],3));
+
+//=============================================================================
+//Bonus
+// 1. Add a method reverseString (from question 6) to the object String so that it is possible to call: "Per Scholas".reverseString().
+function reverseString(input){
+  var word="";
+  for(var i=input.length-1; i>=0; i--)
+  word+=input[i];
+  return word;
+}console.log(reverseString("salohcS reP"));
