@@ -10,6 +10,9 @@ Find the difference between abstract class and an interface
 Which of the two can have implementation of a method in the class?*/
 
 class Fish {
+  constructor(color){
+    this.color = color
+  }
   Swim(){
     console.log("I can swim!");
   }
