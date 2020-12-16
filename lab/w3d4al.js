@@ -45,8 +45,8 @@ class User {
     this.lastName = lastName;
     this.department = department;
   }
-  changeDepartment() {
-    console.log("Change department");
+  changeDepartment(newDepartment) {
+    this.department = newDepartment;
   }
 };
 
@@ -54,8 +54,11 @@ const user1 = new User('Kean', 'Lim', 'IT');
 const user2 = new User('Shantelle', 'Lamar', 'HR');
 const user3 = new User('Jordan', 'Bentley', 'Finance');
 
-user1.changeDepartment();
-console.log(user1.department);
+console.log(user1);
+user1.changeDepartment('CTO');
+console.log(user1);
 
-user2.changeDepartment();
-console.log(user2.department);
+console.log(user2);
+user2.changeDepartment('CFO');
+console.log(user2);
+
